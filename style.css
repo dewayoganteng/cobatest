@@ -1,0 +1,270 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #293462;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #293462;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #293462;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #293462;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #0078AA;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #FF0063;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #FF0063;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold; 
+}
+
+a.tbl-pink:hover {
+    background: #0078AA;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+
+}
+
+.project-list  {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-project {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-project img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-project p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #293462;
+}
+
+.edukasi-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-edukasi {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-edukasi img {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+
+}
+
+.kartu-edukasi p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #293462;
+    flex-wrap: wrap;
+
+}
+
+#contact {
+    background-color: #293462;
+    padding: 50px 0 50px 0;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    line-height: 50px;
+    width: 100%;
+}
+
+.footer-section p {
+    color: #FFFFFF;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+
+    }
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    section {
+        display: block;
+    }
+
+    section img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-project {
+        width: 50%;
+    }
+    .kartu-edukasi {
+        width: 50%;
+    }
+}
